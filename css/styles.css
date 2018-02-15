@@ -76,15 +76,11 @@ section .carousel-inner h1{
 	color: #04192b;
 }
 
-section .carousel-inner  img{
-	height: auto;
-	max-width: 100%;
-}
-
-._carousel-img{
-	height: 700px; 
+section .carousel-inner .img-responsive{
+	height: 600px;
 	width: 100%;
 }
+
 
 /*CSS Section 2 - GoodWill*/
 section .cont-part3{
@@ -389,8 +385,13 @@ footer .cont-footer .icons-cont-footer i{
 	}
 }
 
-@media (max-width: 769px) and (max-height: 1200px){
-	._carousel-img{
-		height: 250px;
+@media (max-height: 880px) and (max-width: 580px){
+	section .carousel-inner .img-responsive{
+		height: 300px;
+		width: 100%;
+	}
+	header {
+		height: 500px;
+		width: 100%;
 	}
 }
