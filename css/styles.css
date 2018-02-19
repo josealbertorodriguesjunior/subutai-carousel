@@ -81,7 +81,7 @@ section .carousel-inner .img-responsive{
 	width: 100%;
 }
 
-section .carousel-inner .box1{
+/*section .carousel-inner .box1{
 	height: 50px;
 	width: 50%;
 	background-color: #04192b;
@@ -106,7 +106,7 @@ section .carousel-inner .box2 p{
 	padding-top: 15px;
 	text-align: center;
 	font-size: 18px;
-}
+}*/
 
 /*CSS Section 2 - GoodWill*/
 section .cont-part3{
@@ -280,7 +280,7 @@ footer .cont-footer .icons-cont-footer i{
 }
 
 /*Responsive CSS*/
-@media (max-width: 480px){
+/*@media (max-width: 480px){
 
 	section .carousel-inner .box1{
 		height: 40px;
@@ -308,9 +308,7 @@ footer .cont-footer .icons-cont-footer i{
 		padding-bottom: 10px;
 		font-size: 14px;
 	}
-}
-
-
+}*/
 
 @media (max-width: 768px) { 
 	/*Navbar*/
