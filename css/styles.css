@@ -83,7 +83,7 @@ section .carousel-inner h1{
 }
 
 section .carousel-inner .img-responsive{
-	height: 600px;
+	height: auto;
 	width: 100%;
 }
 
