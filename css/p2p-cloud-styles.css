@@ -22,7 +22,7 @@ header .header-internal{
 	font-weight: 700;
 }
 
-/*Section Internal Panel*/
+/*Section text part 1*/
 section .internal-panel{
 	padding-top: 5%;
 }
@@ -40,7 +40,7 @@ section .internal-panel .panel-heading{
 section .internal-panel .panel-heading h2{
 	font-size: 25px;
 	font-weight: 700;
-	padding-top: 10px;
+	padding-top: 15px;
 }
 
 section .internal-panel .panel-body p{
@@ -59,7 +59,7 @@ section .internal-panel .texts img{
 	padding-top: 50px;
 }
 
-/*Section Texts-part2*/
+/*Section text part 1*/
 section .texts-part2 h1{
 	padding-top: 2%;
 }
@@ -79,8 +79,7 @@ section .internal-panel2 .panel-body p{
 
 }
 
-
-/*Section 3*/
+/*Section text part 1*/
 section .block-text{
 	padding-bottom: 10%;
 }
