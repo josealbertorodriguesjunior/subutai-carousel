@@ -1,0 +1,59 @@
+header .header-internal{
+	overflow: hidden; 
+    width: 100%;
+    height: 400px;
+    position: relative; 
+}
+
+.jumbotron-internal {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-image:  url("../img/bg.jpg");]
+	position: fixed; 
+	width: 100%;
+	height: 400px;
+}
+
+.jumbotron-internal h1{
+	color: #fff;
+	font-weight: 700;
+}
+
+section .internal-panel .panel-body{
+	height: 180px;
+}
+
+section .internal-panel{
+	padding-top: 5%;
+}
+
+section .internal-panel .panel-primary{
+	border-color: #eee;
+}
+
+section .internal-panel .panel-heading h2{
+	font-size: 20px;
+	font-weight: 700;
+}
+
+section .internal-panel .panel-body p{
+	padding: 25px;
+}
+
+section .internal-panel .text1 p{
+	text-align: justify;
+	line-height: 35px;
+	padding-top: 4%;
+}
+
+
+
+/*CSS Responsive*/
+@media (max-height: 880px) and (max-width: 580px){
+	.jumbotron-internal {
+		width: 100%;
+		height: auto;
+	}
+}
