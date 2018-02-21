@@ -87,6 +87,34 @@ section .carousel-inner .img-responsive{
 	width: 100%;
 }
 
+section .carousel-inner .box1{
+	height: 50px;
+	width: 50%;
+	background-color: #04192b;
+	text-align: center;
+
+}
+
+section .carousel-inner .box1 h3{
+	padding-top: 10px;
+	text-align: center;
+	font-weight: 700;
+}
+
+section .carousel-inner .box2{
+	height: 67px;
+	width: 100%;
+	background-color: #078DD0;
+	text-align: center;
+}
+
+section .carousel-inner .box2 p{
+	padding-top: 15px;
+	text-align: center;
+	font-size: 18px;
+}
+
+
 /*CSS Section 2 - GoodWill*/
 section .cont-part3{
 	background-color: #fff;
@@ -258,6 +286,37 @@ footer .cont-footer .icons-cont-footer i{
 	padding-top: 5px;	
 }
 
+/*CSS responsive*/
+
+@media (max-width: 480px){
+
+	section .carousel-inner .box1{
+		height: 40px;
+		width: 100%;
+		background-color: #04192b;
+		text-align: center;
+	}
+
+	section .carousel-inner .box1 h3{
+		padding-top: 10px;
+		text-align: center;
+		font-weight: 0;
+		font-size: 20px;
+	}
+
+	section .carousel-inner .box2{
+		height: 80px;
+		width: 100%;
+	}
+
+	section .carousel-inner .box2 p{
+		padding-top: 10px;
+		text-align: center;
+		padding-bottom: 10px;
+		font-size: 14px;
+	}
+}
+
 @media (max-width: 768px) { 
 	/*Navbar*/
 	.navbar-header{
@@ -391,7 +450,7 @@ footer .cont-footer .icons-cont-footer i{
 
 @media (max-height: 880px) and (max-width: 580px){
 	section .carousel-inner .img-responsive{
-		height: auto;
+		height: 200px;
 		width: 100%;
 	}
 	header {
