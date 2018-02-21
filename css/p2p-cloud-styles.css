@@ -22,26 +22,31 @@ header .header-internal{
 	font-weight: 700;
 }
 
-/*Section Internal Panel*/
+/*Section text part 1*/
 section .internal-panel{
 	padding-top: 5%;
 }
 
 section .internal-panel .panel-primary{
 	border-color: #eee;
+	height: 310px;
 }
 
-section .internal-panel .panel-body{
-	height: 180px;
+section .internal-panel .panel-heading{
+	background-color: #078dd0;
+	height: 80px;
 }
 
 section .internal-panel .panel-heading h2{
-	font-size: 20px;
+	font-size: 25px;
 	font-weight: 700;
+	padding-top: 15px;
 }
 
 section .internal-panel .panel-body p{
 	padding: 25px;
+	line-height: 30px;
+	text-align: center;
 }
 
 section .internal-panel .texts p{
@@ -54,7 +59,7 @@ section .internal-panel .texts img{
 	padding-top: 50px;
 }
 
-/*Section Texts-part2*/
+/*Section text part 1*/
 section .texts-part2 h1{
 	padding-top: 2%;
 }
@@ -74,8 +79,7 @@ section .internal-panel2 .panel-body p{
 
 }
 
-
-/*Section 3*/
+/*Section text part 1*/
 section .block-text{
 	padding-bottom: 10%;
 }
