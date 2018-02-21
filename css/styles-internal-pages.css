@@ -42,12 +42,40 @@ section .internal-panel .panel-body p{
 	padding: 25px;
 }
 
+/*TEXTS*/
 section .internal-panel .text1 p{
 	text-align: justify;
 	line-height: 35px;
 	padding-top: 4%;
 }
 
+section .internal-panel .text2{
+	padding-top: 7%;
+}
+
+section .internal-panel .text2 p{
+	text-align: justify;
+	line-height: 35px;
+	padding-top: 4%;
+}
+
+section .internal-panel .text2 img{
+	padding-top: 50px;
+}
+
+section .internal-panel .text3{
+	padding-top: 7%;
+}
+
+section .internal-panel .text3 p{
+	text-align: justify;
+	line-height: 35px;
+	padding-top: 4%;
+}
+
+section .internal-panel .text3 img{
+	padding-top: 50px;
+}
 
 
 /*CSS Responsive*/
