@@ -96,4 +96,8 @@ section .block-text p{
 		width: 100%;
 		height: auto;
 	}
+
+	.jumbotron-internal h1{
+		padding-top: 20px;
+	}
 }
