@@ -1,3 +1,9 @@
+p{
+	padding: 10px;
+	line-height: 30px;
+	text-align: justify;
+}
+
 /*Header*/
 header .header-internal{
 	overflow: hidden; 
@@ -20,4 +26,42 @@ header .header-internal{
 .jumbotron-internal h1{
 	color: #fff;
 	font-weight: 700;
+}
+
+/*Section - text1*/
+section .text1{
+	padding-top: 5%;
+}
+
+section .text1 .block-text1 p{
+	text-align: center;
+}
+
+section .text1 .text-list{
+	padding-top: 4%;
+}
+
+section .text1 .text-list ul li{
+	line-height: 30px;
+	text-align: justify;
+}
+
+section .text1 .block-text2{
+	padding-top: 4%;
+}
+
+section .text1 .block-text3{
+	padding-top: 4%;
+	padding-bottom: 10%;
+}
+
+@media (max-height: 880px) and (max-width: 580px){
+	.jumbotron-internal {
+		width: 100%;
+		height: auto;
+	}
+
+	.jumbotron-internal h1{
+		padding-top: 20px;
+	}
 }
