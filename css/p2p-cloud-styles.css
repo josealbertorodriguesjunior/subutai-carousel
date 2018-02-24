@@ -29,30 +29,34 @@ section .internal-panel{
 
 section .internal-panel .panel-primary{
 	border-color: #eee;
-	height: 310px;
+	height: 260px;
 }
 
 section .internal-panel .panel-heading{
 	background-color: #078dd0;
-	height: 80px;
+	height: 60px;
 }
 
 section .internal-panel .panel-heading h2{
-	font-size: 25px;
+	font-size: 23px;
 	font-weight: 700;
-	padding-top: 15px;
+	padding-top: 8px;
 }
 
 section .internal-panel .panel-body p{
-	padding: 25px;
+	padding: 20px;
 	line-height: 30px;
 	text-align: center;
 }
-
+ 
 section .internal-panel .texts p{
 	text-align: justify;
 	line-height: 35px;
-	padding-top: 4%;
+}
+
+section .internal-panel .texts ul li{
+	text-align: justify;
+	line-height: 35px;
 }
 
 section .internal-panel .texts img{
