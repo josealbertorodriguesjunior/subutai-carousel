@@ -2,7 +2,7 @@
 header .header-internal{
 	overflow: hidden; 
     width: 100%;
-    height: 400px;
+    height: 350px;
     position: relative; 
 }
 
@@ -14,7 +14,7 @@ header .header-internal{
 	background-image:  url("../img/bg.jpg");]
 	position: fixed; 
 	width: 100%;
-	height: 400px;
+	height: 350px;
 }
 
 .jumbotron-internal h1{
@@ -24,7 +24,7 @@ header .header-internal{
 
 /*Section text part 1*/
 section .internal-panel{
-	padding-top: 5%;
+	padding-top: 2%;
 }
 
 section .internal-panel .panel-primary{
@@ -57,6 +57,7 @@ section .internal-panel .texts p{
 section .internal-panel .texts ul li{
 	text-align: justify;
 	line-height: 35px;
+	font-size: 16px;
 }
 
 section .internal-panel .texts img{
@@ -85,7 +86,7 @@ section .internal-panel2 .panel-body p{
 
 /*Section text part 1*/
 section .block-text{
-	padding-bottom: 10%;
+	padding-bottom: 5%;
 }
 
 section .block-text p{
