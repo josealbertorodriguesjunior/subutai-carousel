@@ -188,8 +188,8 @@ section .cont-part4 .getting-started .panel-body  ul li{
 /*CSS Section 4 - Community*/
 section .cont-part5{
 	background-color: #04192b;
-	padding-top: 3%;
-	padding-bottom: 5%;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
 
 section .cont-part5 h1{
@@ -215,7 +215,7 @@ section .cont-part5 .form-group{
 
 section .cont-part5 .form-control{
     display: block;
-    width: 100%;
+    width: 80%;
     height: 40px;
     padding: 6px 12px;
     font-size: 15px;
@@ -226,6 +226,10 @@ section .cont-part5 .form-control{
     background-image: none;
     border: 1px solid #078dd0;
     border-radius: 4px;
+}
+
+section .cont-part5 .mailchimp{
+	margin-left: 35%;
 }
 
 /*CSS Section 5 - Tribute*/
@@ -402,6 +406,13 @@ footer .cont-footer .icons-cont-footer i{
 		padding-left: 20px;
 		color: #fff;
 		padding-top: 5px;	
+	}
+}
+
+@media(max-width: 1200px){
+
+	section .cont-part5 .mailchimp{
+		margin-left: 0px;
 	}
 }
 

@@ -1,8 +1,3 @@
-p{
-	padding: 10px;
-	line-height: 30px;
-	text-align: justify;
-}
 
 /*Header*/
 header .header-internal{
@@ -32,6 +27,24 @@ header .header-internal{
 section .text1{
 	padding-top: 4%;
 	padding-bottom: 3%;
+}
+
+section .text1 .block-text1 p{
+	padding: 10px;
+	line-height: 30px;
+	text-align: justify;
+}
+
+section .text1 .block-text2 p{
+	padding: 10px;
+	line-height: 30px;
+	text-align: justify;
+}
+
+section .text1 .block-text3 p{
+	padding: 10px;
+	line-height: 30px;
+	text-align: justify;
 }
 
 /* Responsive CSS*/
