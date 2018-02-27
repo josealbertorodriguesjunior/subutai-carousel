@@ -29,6 +29,18 @@ section .text1{
 }
 
 section .text1 .block-text1 p{
+	padding: 10px;
+	line-height: 30px;
+	text-align: justify;
+}
+
+section .text1 .block-text2 p{
+	padding: 10px;
+	line-height: 30px;
+	text-align: justify;
+}
+
+section .text1 .block-text1 p{
 	text-align: center;
 }
 
