@@ -29,7 +29,7 @@ section .internal-panel{
 
 section .internal-panel .panel-primary{
 	border-color: #eee;
-	height: 260px;
+	height: 240px;
 }
 
 section .internal-panel .panel-heading{
@@ -44,7 +44,7 @@ section .internal-panel .panel-heading h2{
 }
 
 section .internal-panel .panel-body p{
-	padding: 20px;
+	padding: 10px;
 	line-height: 30px;
 	text-align: center;
 }

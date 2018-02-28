@@ -40,10 +40,6 @@ section .text1 .block-text2 p{
 	text-align: justify;
 }
 
-section .text1 .block-text1 p{
-	text-align: center;
-}
-
 section .text1 .text-list{
 	padding-top: 4%;
 }
@@ -54,13 +50,19 @@ section .text1 .text-list ul li{
 	font-size: 16px;
 }
 
+section .text1 .text-list p{
+	padding: 10px;
+	line-height: 30px;
+	text-align: justify;
+}
+
 section .text1 .block-text2{
 	padding-top: 4%;
 }
 
 section .text1 .block-text3{
-	padding-top: 4%;
-	padding-bottom: 7%;
+	padding-top: 2%;
+	padding-bottom: 4%;
 }
 
 @media (max-height: 880px) and (max-width: 580px){
