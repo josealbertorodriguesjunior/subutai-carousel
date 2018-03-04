@@ -11,8 +11,8 @@ header .header-internal{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	background-image:  url("../img/bg.jpg");]
-	position: fixed; 
+	background-image:  url("../img/bg.jpg");
+	background-position: top center;
 	width: 100%;
 	height: 350px;
 }
