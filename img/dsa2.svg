@@ -4,9 +4,6 @@
 	 viewBox="0 0 58 58" style="enable-background:new 0 0 58 58;" xml:space="preserve">
 <rect style="fill:#ECF0F1;" width="58" height="58"/>
 <rect style="fill:#546A79;" width="58" height="12"/>
-<circle style="fill:#ED7161;" cx="6" cy="6" r="3"/>
-<circle style="fill:#F0C419;" cx="15" cy="6" r="3"/>
-<circle style="fill:#4FBA6F;" cx="24" cy="6" r="3"/>
 <rect x="45" y="17" style="fill:#BDC3C7;" width="8" height="36"/>
 <rect x="5" y="17" style="fill:#BDC3C7;" width="8" height="36"/>
 <rect x="18" y="47" style="fill:#71C285;" width="22" height="6"/>
